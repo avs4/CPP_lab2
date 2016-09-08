@@ -10,7 +10,7 @@ float f(float x)
 
 int main()
 {
-	float a=0,b=1,l,c,x=0;
+	float a=0,b=1,l,c,x=0;		// a,b - коннцы отрезка; c - середина отрезка; l - длина отрезка; x - искомая точка
 	l=b-a;
 	while (l>0.001)
 	{
@@ -20,17 +20,11 @@ int main()
 			c=b-l;
 			x=c;
 			if (f(c)*f(b)<0)
-			{
 				a=c;
-			}
 			else if (f(a)*f(c)<0)
-			{
 				b=c;
-			}
 			else
-			{
 				break;
-			}
 		}
 		else
 		{
@@ -38,7 +32,7 @@ int main()
 			break;
 		}
 	}
-	x=(float((int(x*100000))/10))/10000;
+	x=(float((int(x*100000))/10))/10000;		// округление в меньшую сторону с точночтью 0.0010
 	cout<<"f(x)=0 in x="<<x<<endl;
 	system("pause");
 }
