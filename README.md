@@ -1,1 +1,1 @@
-# Cplusplus_lab2
+C++ lab2
