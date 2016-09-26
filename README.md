@@ -1,1 +1,2 @@
-C++ lab2
+C++ (3 sem)
+Practical work #2
