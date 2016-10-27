@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Task 1 - Sorting
+
 int A[]={31, 30, 69, 8, 74, 11, 40, 7, 48, 26, 65, 43, 73, 89, 44, 67, 41, 95, 55, 68};
 
 int main()
@@ -25,3 +27,5 @@ int main()
 	}
 	system("pause");
 }
+
+//Task 2 - Bisection
